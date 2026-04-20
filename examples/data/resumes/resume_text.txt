@@ -1,0 +1,63 @@
+Alex Nettleton
+Austin, Texas
+Email: alexneth93@gmail.com | LinkedIn: https://www.linkedin.com/in/alex-nettleton-156703382
+GitHub: anetherland | Phone: +1 512-123-4567
+
+Summary
+A motivated and detail-oriented Python Developer with a solid foundation in software engineering and a passion for building efficient, scalable, and robust applications. Experienced in the full software development lifecycle, from concept to deployment. Seeking to leverage strong problem-solving skills and a collaborative mindset to contribute to an innovative team.
+
+Education
+Bachelor of Science in Computer Science
+The University of Texas at Austin - Austin, Texas
+Graduation Year: 2021
+
+Experience
+Software Engineer
+General Motors - Austin, TX
+(06/2023 - Present)
+    Developed and maintained Python-based applications for data processing and analysis within the manufacturing and robotics divisions.
+    Collaborated with cross-functional teams to design and implement new software features, resulting in a 15% improvement in data processing efficiency.
+    Participated in code reviews and contributed to the continuous improvement of software development practices.
+Junior Python Developer
+Q2 - Austin, TX
+(08/2021 - 05/2023)
+    Assisted in the development and testing of Python-based financial technology solutions.
+    Wrote and maintained unit tests to ensure code quality and reliability.
+    Gained experience with Agile development methodologies and version control systems like Git.
+Software Engineering Intern
+Arm - Austin, TX
+(06/2020 - 08/2020)
+    Contributed to a team focused on developing and scripting with Python and C.
+    Gained hands-on experience with Linux environments and source control systems.
+    Assisted in the development of internal tools to support engineering workflows.
+
+Projects
+Automated Data Pipeline
+    Designed and built a personal project to automate the collection and processing of data from various APIs using Python, Pandas, and SQL.
+    The pipeline transforms raw data into a structured format for analysis, reducing manual data handling time by 90%.
+    Link: https://github.com/anettleton/automated-data-pipeline
+E-commerce Price Tracker
+    Developed a web scraping tool using Python, BeautifulSoup, and Scrapy to monitor and track the prices of products on various e-commerce websites.
+    The tool sends email notifications when prices drop below a certain threshold.
+    Link: https://github.com/anettleton/ecommerce-price-tracker
+
+
+Achievements
+    GM Spot Award (2024): Received a spot recognition award for identifying and resolving a critical bug in a data processing pipeline, preventing potential data loss and saving an estimated 20 hours of manual correction per month.
+    Q2 "Circle of Awesomeness" Award (2022): Recognized for outstanding performance and teamwork as a junior developer, contributing to the successful on-time launch of a new mobile banking feature.
+    First Place, HackTX (2021): Led a team of four to win first place at the annual University of Texas at Austin hackathon by developing a novel FinTech application for micro-investing.
+    University Honors: Graduated with honors from the College of Natural Sciences at The University of Texas at Austin.
+
+Certifications
+    PCEP – Certified Entry-Level Python Programmer - Python Institute
+    PCAP – Certified Associate in Python Programming - Python Institute
+
+Skills
+    Python, SQL, JavaScript, HTML/CSS, Django, Flask, Pandas, NumPy, PostgreSQL, MongoDB, Git, Docker, Jira, AWS (Lambda, S3), Agile, Scrum, Software Infrastructure, Engineering
+
+Languages
+    English - Native
+    Spanish - Professional
+
+Interests
+    Machine Learning, Data Science, Cloud Computing, and Open-Source Contribution.

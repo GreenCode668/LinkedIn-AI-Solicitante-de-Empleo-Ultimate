@@ -1,0 +1,45 @@
+positions: # Mandatory setting
+  - Software engineer
+
+remote: true
+hybrid: true
+onsite: true
+
+experience_level:
+  internship: false
+  entry: false
+  associate: false
+  mid_senior_level: true
+  director: false
+  executive: false
+
+job_types:
+  full_time: true
+  contract: false
+  part_time: true
+  temporary: true
+  volunteer: false
+  internship: false
+  other: false
+
+date:
+  all_time: false
+  month: false
+  week: false
+  24_hours: true
+
+locations:
+  - United States
+
+apply_once_at_company: true
+
+company_blacklist:
+  - Wayfair
+  - Crossover
+
+title_blacklist:
+  - Word1
+  - Word2
+
+location_blacklist:
+  - Brazil

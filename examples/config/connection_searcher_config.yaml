@@ -1,0 +1,11 @@
+main_search_words:
+  - "Open Networker"
+  - "LION"
+  - "NO IDK"
+
+additional_search_words:
+  - "ml"
+  - "data science"
+  - "data engineering"
+  - "data analyst"
+  - "ai"

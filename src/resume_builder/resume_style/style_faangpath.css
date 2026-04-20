@@ -1,0 +1,221 @@
+/*FAANGPath$https://github.com/Elijas/latex-resume-template*/
+
+/* Using fonts that are commonly available and resemble classic resume styles */
+body {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    color: #333;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.5in;
+    font-size: 10.5pt;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 0in;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0in;
+}
+
+h1 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    font-weight: 550;
+    margin: 0 0 5px 0;
+    color: #000;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 12px; /* row-gap, column-gap */
+    font-size: 10.5pt;
+    color: #000;
+}
+
+.contact-info .contact-links {
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.contact-info p {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+/* Add a separator (bullet) between contact items for a classic look */
+.contact-info > p:first-child::after {
+    content: '⋄';
+    margin-left: 12px;
+    color: #555;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.contact-links p {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 6px;
+    font-weight: normal;
+}
+
+.contact-links p:not(:last-child)::after {
+    content: '⋄';
+    margin-left: 12px;
+    color: #555;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-info a {
+    color: #0000cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Hide FontAwesome icons to match the clean LaTeX style */
+.fab::before,
+.fas::before {
+   display: none; /* This hides the icon font character */
+}
+
+main {
+    margin-top: 0.125in;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.entry {
+    margin-bottom: 12px;
+}
+
+.entry-header,
+.entry-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.entry-header {
+    font-size: 11pt;
+    margin-bottom: 1px;
+}
+
+.entry-name {
+    font-weight: bold;
+}
+
+.entry-location {
+    font-weight: normal;
+}
+
+.entry-details {
+    margin-bottom: 4px;
+    font-size: 10pt;
+    font-style: italic;
+    color: #444;
+}
+
+.entry-title {
+   font-weight: normal;
+}
+
+.entry-year {
+    font-weight: normal;
+}
+
+.compact-list {
+    margin: 0;
+    padding-left: 18px; /* Standard indentation for bullets */
+    list-style-position: outside;
+}
+
+.compact-list li {
+    margin-bottom: 3px;
+    padding-left: 5px;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.two-column ul {
+    width: 48%;
+    margin: 0;
+    padding-left: 18px;
+}
+
+a {
+    color: #000; /* Links are not colored in the original template */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media print {
+    body {
+        padding: 0;
+        margin: 0;
+        font-size: 10.5pt;
+        background-color: #fff;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+
+    @page {
+        margin: 0.25in;
+    }
+
+    header {
+        padding-bottom: 0in;
+        margin-bottom: 0in;
+    }
+
+    h1 {
+        font-size: 18pt;
+    }
+
+    h2 {
+        font-size: 12pt;
+    }
+
+    .contact-info {
+        font-size: 10.5pt;
+    }
+}
