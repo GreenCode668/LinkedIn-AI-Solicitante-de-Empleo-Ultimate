@@ -182,32 +182,4 @@ Read the generated resume carefully. If you see No info, N/A, or None anywhere, 
 
 Once you're happy with the result, rename the file to resume.pdf and move it to data/resumes/. The bot will use it by default.
 
-▶️ Usage
-Once installation and configuration are complete, you can run the bot with a single command:
 
-uv run python main.py
-If any fields in your structured_resume.yaml are missing, the bot will show a warning listing the missing fields and offer two choices:
-
-Press y to continue anyway.
-Press n to stop, review what's missing, update resume_text.txt, delete structured_resume.yaml, and restart. Alternatively, fill in the missing fields manually if you prefer not to let the LLM regenerate the file.
-If 30 seconds pass without input, or all fields are already filled, the bot will proceed automatically.
-
-The bot logs its progress to the console and writes detailed log files to the logs/ directory. When it finishes a run, it sends a summary report to your configured Telegram chat.
-
-Pause and Resume
-If you notice the bot behaving oddly, press Ctrl+X to pause it. Press Ctrl+X again to resume. The bot won't stop instantly — give it a couple of seconds to reach a safe pause point.
-
-Output Files (data/output/)
-answers.yaml — Previously given answers to LinkedIn application questions, reused across runs to minimize LLM calls.
-failed.yaml — Jobs where an application attempt failed, with reasons.
-interesting_jobs.yaml — Jobs flagged as interesting by the LLM, with interest scores, reasoning, and extracted key skills, sorted by interest score.
-last_run.yaml — Internal cache with timestamps and counters used for 24-hour scheduling.
-resume_recommendations.txt — AI-generated suggestions for improving your resume (generated once and reused unless deleted).
-skill_stat.yaml — Aggregated statistics of the most frequently requested skills across job descriptions, sorted by frequency.
-skipped.yaml — Jobs the bot intentionally skipped (blacklist, missing info, not interesting), with reasons.
-success.yaml — Jobs the bot successfully applied to, with basic info.
-Automated Networking
-To run the networking tool separately:
-
-python connection_searcher.py
-It will use config/connection_searcher_config.yaml to find and connect with open networkers on LinkedIn.
